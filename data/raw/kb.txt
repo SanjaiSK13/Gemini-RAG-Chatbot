@@ -1,0 +1,83 @@
+
+AUTO-RESOLUTION KNOWLEDGE BASE
+Domain: Customer Support
+
+---------------------------------------------------
+Issue Type: Double Charge / Multiple Payments
+Keywords: charged twice, double payment, multiple charges
+Priority: High
+Resolution:
+If you were charged twice, the extra amount is usually auto-reversed within 5–7 business days.
+Check your bank statement. If not reversed, submit a refund request with transaction ID.
+Contact:
+billing@company.com
++91-1800-000-111
+---------------------------------------------------
+
+Issue Type: Fraud / Unauthorized Transaction
+Keywords: fraud, unauthorized, scam, hacked
+Priority: High
+Resolution:
+Immediately block your account/card using the app:
+Profile → Security → Block Account
+Reset your password and enable 2FA.
+Contact:
+fraud@company.com
+24/7 Helpline: +91-1800-999-000
+---------------------------------------------------
+
+Issue Type: Refund Not Received
+Keywords: refund pending, refund not received
+Priority: Medium
+Resolution:
+Refunds take 5–10 business days depending on the bank.
+Track refund status at:
+www.company.com/refund-status
+Contact:
+support@company.com
+---------------------------------------------------
+
+Issue Type: Delivery Delay
+Keywords: delivery delayed, order late
+Priority: Medium
+Resolution:
+Track your order at:
+www.company.com/track-order
+If delayed beyond 3 days, you may request compensation.
+Contact:
+logistics@company.com
+---------------------------------------------------
+
+Issue Type: Login Issues
+Keywords: cannot login, login failed
+Priority: Medium
+Resolution:
+1. Reset password
+2. Clear browser cache
+3. Try another device
+If issue persists, contact support.
+Contact:
+techsupport@company.com
+---------------------------------------------------
+
+Issue Type: UI Feedback / Suggestions
+Keywords: suggestion, feedback, UI improvement
+Priority: Low
+Resolution:
+Thank you for your feedback.
+Submit suggestions at:
+www.company.com/feedback
+Contact:
+feedback@company.com
+---------------------------------------------------
+
+Issue Type: Damaged Product
+Keywords: damaged package, broken item
+Priority: Medium
+Resolution:
+Upload product photos within 48 hours for replacement.
+Return portal:
+www.company.com/returns
+Contact:
+returns@company.com
+---------------------------------------------------
