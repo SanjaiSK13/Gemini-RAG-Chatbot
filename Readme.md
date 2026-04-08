@@ -35,30 +35,30 @@ The platform demonstrates a sophisticated AI pipeline: from **automated document
 ## 🏗️ System Architecture
 
 Private Knowledge Base (Text/Manuals)
-↓
+        ↓
 Ingestion Engine
 (Text Extraction & Chunking)
-↓
+        ↓
 Embedding Layer
 (High-Dimensional Vectorization)
-↓
-┌─────────────────────────────┐
-│      Indexing & Storage     │
-│      FAISS Vector DB        │
-└─────────────────────────────┘
-↓
+        ↓
++-----------------------------+
+|     Indexing & Storage      |
+|     FAISS Vector DB         |
++-----------------------------+
+        ↓
 User Query (Support Ticket)
-↓
-┌───────────────────────────────┐
-│       Retrieval Layer         │
-│  (Semantic Search via FAISS)  │
-└───────────────────────────────┘
-↓
-┌───────────────────────────────┐
-│       Generation Layer        │
-│  (Context-Injected Prompting) │
-└───────────────────────────────┘
-↓
+        ↓
++-------------------------------+
+|       Retrieval Layer         |
+|   (Semantic Search via FAISS) |
++-------------------------------+
+        ↓
++-------------------------------+
+|       Generation Layer        |
+|  (Context-Injected Prompting) |
++-------------------------------+
+        ↓
 ⚡ Grounded Response (< 1.2s)
 ---
 
