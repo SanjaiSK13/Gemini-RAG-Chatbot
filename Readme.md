@@ -65,6 +65,41 @@ User Query (Support Ticket)
 ```
 ---
 
+## Project Structure
+
+```
+
+gemini_rag_portal/
+│
+├── data/
+│   ├── processed/              # Processed & chunked data
+│   └── raw/
+│       └── kb.txt              # Raw knowledge base file
+│
+├── docs/                       # Documentation & reports
+│   ├── Documentation_Sanjai_...
+│   └── Report_Sanjai_RAG_...
+│
+├── src/                        # Core source code
+│   ├── __pycache__/
+│   ├── config.py               # Configuration settings
+│   ├── data_loader.py          # Loads raw data
+│   ├── embedding_engine.py     # Embedding generation logic
+│   ├── rag_chain.py            # RAG pipeline (retrieval + generation)
+│   └── vector_store/           # FAISS vector DB handling
+│
+├── venv/                       # Virtual environment
+├── .env                        # API keys (Gemini)
+├── .gitignore
+├── app.py                      # Streamlit app entry point
+├── LICENSE
+├── Readme.md                   # Project documentation
+└── requirements.txt            # Dependencies
+
+```
+
+---
+
 ## 💻 Setup & Installation
 
 ### 1. Clone the Repository
@@ -90,6 +125,8 @@ Bash
 
 streamlit run app.py
 
+---
+
 📊 Performance Metrics
 Metric	Target / Achievement
 Response Latency	< 1.2 Seconds
@@ -97,7 +134,7 @@ Factual Grounding	100% (Zero-Hallucination)
 Model Version	Gemini 3 Flash Preview
 Framework	LangChain / FAISS
 
-Export to Sheets
+---
 
 💡 Business Applications
 Customer Support Automation: Millisecond-latency responses for complex user queries.
@@ -106,12 +143,14 @@ Private Knowledge Retrieval: Securely querying internal documentation without pu
 
 Automated Intent Handling: Precise interpretation of customer needs using state-of-the-art LLM reasoning.
 
+---
+
 👨‍💻 Author
 Sanjai K
 M.E. Computer Science (AI & ML Specialization)
-
-GitHub: SanjaiSK13
 Domain: Deep Learning · Computer Vision · Full-Stack AI Systems
+
+---
 
 📜 License
 This project is open-source and available under the MIT License.
