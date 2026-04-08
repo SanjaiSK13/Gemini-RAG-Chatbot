@@ -34,6 +34,7 @@ The platform demonstrates a sophisticated AI pipeline: from **automated document
 
 ## 🏗️ System Architecture
 
+```
 Private Knowledge Base (Text/Manuals)
         ↓
 Ingestion Engine
@@ -60,6 +61,8 @@ User Query (Support Ticket)
 +-------------------------------+
         ↓
 ⚡ Grounded Response (< 1.2s)
+
+```
 ---
 
 ## 💻 Setup & Installation
