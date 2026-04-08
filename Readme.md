@@ -43,24 +43,23 @@ Embedding Layer
 (High-Dimensional Vectorization)
 ↓
 ┌─────────────────────────────┐
-│ Indexing & Storage │
-│ FAISS Vector DB │
+│      Indexing & Storage     │
+│      FAISS Vector DB        │
 └─────────────────────────────┘
 ↓
 User Query (Support Ticket)
 ↓
 ┌───────────────────────────────┐
-│ Retrieval Layer │
-│ (Semantic Search via FAISS) │
+│       Retrieval Layer         │
+│  (Semantic Search via FAISS)  │
 └───────────────────────────────┘
 ↓
 ┌───────────────────────────────┐
-│ Generation Layer │
-│ (Context-Injected Prompting) │
+│       Generation Layer        │
+│  (Context-Injected Prompting) │
 └───────────────────────────────┘
 ↓
-Grounded Response (< 1.2s)
-
+⚡ Grounded Response (< 1.2s)
 ---
 
 ## 💻 Setup & Installation
