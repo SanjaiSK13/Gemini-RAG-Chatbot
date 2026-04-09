@@ -63,6 +63,7 @@ User Query (Support Ticket)
 ⚡ Grounded Response (< 1.2s)
 
 ```
+
 ---
 
 ## Project Structure
